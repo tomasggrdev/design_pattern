@@ -1,0 +1,33 @@
+@startuml
+
+interface Notificator {
+    + sendNotification(LegacyNotificationDTO)
+}
+class EmailNotificatorAdapter {
+    - EmailService
+    + sendNotification(LegacyNotificationDTO)
+}
+class SMSNotificatorAdapter {
+    - SMSService
+    + sendNotification(LegacyNotificationDTO)
+}
+class EmailService {
+    + sendEmail(EmailNotificationDTO)
+}
+class SMSService {
+    + sendSMS(LegacyNotificationDTO)
+}
+class Main {
+    - EmailNotificatorAdapter
+    -   SMSNotificatorAdapter
+}
+
+Main --* EmailNotificatorAdapter
+Main --* SMSNotificatorAdapter
+EmailNotificatorAdapter ..|> Notificator
+EmailNotificatorAdapter --* EmailService
+SMSNotificatorAdapter ..|> Notificator
+SMSNotificatorAdapter --* SMSService
+
+
+@enduml

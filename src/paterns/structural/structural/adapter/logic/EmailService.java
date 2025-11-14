@@ -1,6 +1,6 @@
-package paterns.structural.adapter.logic;
+package paterns.structural.structural.adapter.logic;
 
-import paterns.structural.adapter.DTOs.EmailNotificationDTO;
+import paterns.structural.structural.adapter.DTOs.EmailNotificationDTO;
 
 public class EmailService {
 

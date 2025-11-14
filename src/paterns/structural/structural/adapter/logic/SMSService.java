@@ -1,6 +1,6 @@
-package paterns.structural.adapter.logic;
+package paterns.structural.structural.adapter.logic;
 
-import paterns.structural.adapter.DTOs.SMSNotificationDTO;
+import paterns.structural.structural.adapter.DTOs.SMSNotificationDTO;
 
 public class SMSService {
 

@@ -1,10 +1,10 @@
-package paterns.structural.adapter;
+package paterns.structural.structural.adapter;
 
-import paterns.structural.adapter.DTOs.LegacyNotificationDTO;
-import paterns.structural.adapter.logic.EmailNotificatorAdapter;
-import paterns.structural.adapter.logic.EmailService;
-import paterns.structural.adapter.logic.SMSNotificatorAdapter;
-import paterns.structural.adapter.logic.SMSService;
+import paterns.structural.structural.adapter.DTOs.LegacyNotificationDTO;
+import paterns.structural.structural.adapter.logic.EmailNotificatorAdapter;
+import paterns.structural.structural.adapter.logic.EmailService;
+import paterns.structural.structural.adapter.logic.SMSNotificatorAdapter;
+import paterns.structural.structural.adapter.logic.SMSService;
 
 public class Main {
     public static void main(String[] args) {

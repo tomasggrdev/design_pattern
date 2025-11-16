@@ -1,6 +1,6 @@
-package paterns.structural.behavoral.observer.logic.subscribers;
+package paterns.behavoral.observer.logic.subscribers;
 
-import paterns.structural.behavoral.observer.DTOs.PublisherMessage;
+import paterns.behavoral.observer.DTOs.PublisherMessage;
 
 public class SubscriberB implements Subscriber{
 

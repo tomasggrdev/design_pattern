@@ -1,10 +1,10 @@
-package paterns.structural.behavoral.observer;
+package paterns.behavoral.observer;
 
-import paterns.structural.behavoral.observer.DTOs.PublisherMessage;
-import paterns.structural.behavoral.observer.logic.publisers.PublisherABC;
-import paterns.structural.behavoral.observer.logic.subscribers.SubscriberA;
-import paterns.structural.behavoral.observer.logic.subscribers.SubscriberB;
-import paterns.structural.behavoral.observer.logic.subscribers.SubscriberC;
+import paterns.behavoral.observer.DTOs.PublisherMessage;
+import paterns.behavoral.observer.logic.publisers.PublisherABC;
+import paterns.behavoral.observer.logic.subscribers.SubscriberA;
+import paterns.behavoral.observer.logic.subscribers.SubscriberB;
+import paterns.behavoral.observer.logic.subscribers.SubscriberC;
 
 public class Main {
 

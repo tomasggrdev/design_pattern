@@ -1,4 +1,4 @@
-package paterns.structural.structural.adapter.DTOs;
+package paterns.structural.adapter.DTOs;
 
 public class LegacyNotificationDTO {
 

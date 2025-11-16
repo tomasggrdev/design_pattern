@@ -1,7 +1,7 @@
-package paterns.structural.behavoral.observer.logic.publisers;
+package paterns.behavoral.observer.logic.publisers;
 
-import paterns.structural.behavoral.observer.DTOs.PublisherMessage;
-import paterns.structural.behavoral.observer.logic.subscribers.Subscriber;
+import paterns.behavoral.observer.DTOs.PublisherMessage;
+import paterns.behavoral.observer.logic.subscribers.Subscriber;
 
 import java.util.ArrayList;
 import java.util.List;

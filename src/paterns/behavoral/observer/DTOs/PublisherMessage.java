@@ -1,4 +1,4 @@
-package paterns.structural.behavoral.observer.DTOs;
+package paterns.behavoral.observer.DTOs;
 
 
 public class PublisherMessage {

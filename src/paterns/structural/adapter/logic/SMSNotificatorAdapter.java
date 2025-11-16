@@ -1,7 +1,7 @@
-package paterns.structural.structural.adapter.logic;
+package paterns.structural.adapter.logic;
 
-import paterns.structural.structural.adapter.DTOs.LegacyNotificationDTO;
-import paterns.structural.structural.adapter.DTOs.SMSNotificationDTO;
+import paterns.structural.adapter.DTOs.LegacyNotificationDTO;
+import paterns.structural.adapter.DTOs.SMSNotificationDTO;
 
 public class SMSNotificatorAdapter implements Notificator {
 
